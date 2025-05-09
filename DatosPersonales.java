@@ -7,7 +7,8 @@ public class DatosPersonales {
         String nombre = scanner.nextLine();
 
         System.out.println("Escribe tu edad: ");
-        Int edad = scanner.nextLine();
+        int edad = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.println("Escribe tu ciudad: ");
         String ciudad = scanner.nextLine();
